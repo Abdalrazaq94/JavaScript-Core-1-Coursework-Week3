@@ -8,8 +8,10 @@
 
 let statement = "I do not like programming";
 
-let result = "";
+let result2 = statement.substring(0, 4)
+let result1 = statement.substring(8, 27)
 
+let result = result2 + result1
 console.log(result);
 
 /* EXPECTED OUTPUT 

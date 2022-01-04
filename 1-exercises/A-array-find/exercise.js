@@ -17,7 +17,10 @@ let names = [
   "Ahmed",
 ];
 
-let longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+function spl(name) {
+  return  name.startsWith('K'); 
+}
+let longNameThatStartsWithA = names.find(spl);
 
 console.log(longNameThatStartsWithA);
 

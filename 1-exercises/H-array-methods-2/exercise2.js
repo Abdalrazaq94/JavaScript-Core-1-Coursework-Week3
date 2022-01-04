@@ -12,9 +12,9 @@ function capitalise(str) {}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-let name = "daniel";
 
-console.log(capitalise(name));
+
+console.log(capitalise(names));
 console.log(capitalise("hello"));
 
 /* 

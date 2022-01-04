@@ -15,10 +15,11 @@
   
 */
 
-function getSettlers() {}
-
-/* ======= TESTS - DO NOT MODIFY ===== */
-
+function getSettlers() {
+  let voyagers = voyagers.forEach(function (value, index) {
+  return value[A] & value.length > 11
+})
+ 
 test("getSettlers function works", () => {
   const voyagers = [
     "Adam family",
@@ -43,4 +44,4 @@ test("getSettlers function works", () => {
     "Archer family",
     "A Great family",
   ]);
-});
+});}
